@@ -1,0 +1,35 @@
+body {
+  display:flex;
+  flex-direction: column;
+}
+
+.clock{
+  margin: 50px auto;
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+}
+.greeting-wrap {
+  margin: 50px auto;
+}
+.greeting {
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  font-size: 45px;
+}
+.user-name {
+  display: inline-block;
+  width: 400px;
+  margin-left: 20px;
+  color: rgb(140, 1, 204);
+  font-weight: bold;
+  font-size: 45px;
+  border: none;
+  outline: none;
+}
+.user-name::placeholder {
+  color: rgb(140, 1, 204);
+  font-weight: bold;
+  font-size: 45px;
+}
