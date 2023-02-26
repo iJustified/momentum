@@ -166,7 +166,7 @@ setTimeout(() => {
 
 // цитата
 async function getQuotes() {  
-    const quotes = '../data.json';
+    const quotes = '../js/data.json';
     const res = await fetch(quotes);
     const data = await res.json(); 
 
@@ -190,7 +190,7 @@ async function getQuotes() {
 getQuotes();
 
 // плеер
-import playList from '../playList';
+import playList from '../js/playList';
 // console.log(playList);
 
 const audio = document.querySelector('audio');
