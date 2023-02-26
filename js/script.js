@@ -166,7 +166,7 @@ setTimeout(() => {
 
 // цитата
 async function getQuotes() {  
-    const quotes = '/js/data.json';
+    const quotes = '/momentum/js/data.json';
     const res = await fetch(quotes);
     const data = await res.json(); 
 
@@ -190,7 +190,7 @@ async function getQuotes() {
 getQuotes();
 
 // плеер
-import playList from '/js/playList.js';
+import playList from '/momentum/js/playList.js';
 // console.log(playList);
 
 const audio = document.querySelector('audio');
